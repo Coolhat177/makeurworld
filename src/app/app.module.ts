@@ -4,6 +4,7 @@ import { IonicApp, IonicErrorHandler, IonicModule, NavController } from 'ionic-a
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { Camera } from '@ionic-native/camera';
+import { Crop } from '@ionic-native/crop';
 
 
 import { MainTabPage } from '../pages/main-tab/main-tab';
@@ -114,8 +115,8 @@ import { SearchPage } from '../pages/search/search';
     AlertServices,
     NativeStorage,
     CreditService,
-    Camera
-  
+    Camera,
+    Crop
 
   ]
 })
